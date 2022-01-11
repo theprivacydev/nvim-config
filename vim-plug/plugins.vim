@@ -21,7 +21,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'tpope/vim-rhubarb'
 	Plug 'junegunn/gv.vim'
 
-call plug#end()
+	" Which key
+	Plug 'liuchengxu/vim-which-key'
+
+	" Floaterm (floating terminals)
+	Plug 'voldikss/vim-floaterm'
+
+	call plug#end()
 
 " =====================================
 
