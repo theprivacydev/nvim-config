@@ -21,6 +21,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'tpope/vim-rhubarb'
 	Plug 'junegunn/gv.vim'
 
+
+	"React/Js Syntax highlighting
+	Plug 'mxw/vim-jsx'
+	Plug 'pangloss/vim-javascript'
+
 	" Which key
 	Plug 'liuchengxu/vim-which-key'
 
@@ -44,7 +49,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 " Line numbering
 " Toggle set to ';n' in key map section
-set nonumber
+set number
 
 " file type recognition
 filetype on
@@ -67,4 +72,4 @@ vnoremap ii <ESC>
 vnoremap <ESC> <NOP>
 
 " Press ii when in Command mode, to go back to normal mode
-cnoremap ii <ESC>
+" cnoremap ii <ESC>
