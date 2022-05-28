@@ -3,7 +3,7 @@
 # Neovim Config
 
 ## Description
-This is my nvim conifg file. It is of note that I use windows, but I enabled WSL so I'm using Ubuntu as this was the only way I could get neovim to play nice with windows.
+This is my nvim conifg file. Installation covers Mac or Windows. Linux installation should be very similar to Mac. 
 
 ## Table of Contents
   - [Installation](#installation)
@@ -15,7 +15,9 @@ This is my nvim conifg file. It is of note that I use windows, but I enabled WSL
 
 
 ## Installation
-Clone this repository in the appropriate directory. on mac or linux, you can clone this into ~/.config. If you are on a windows, I highly recommend enabling wsl with ubuntu for using neovim. I was unable to get neovim to play nice with windows otherwise. However, if you'd like to give it a shot, clone this repository in your root directory. On Windows, it looks for init.vim in ~/AppData/Local/nvim/init.vim. If you do this, you will need to change the file paths in the init.vim by removing the .config from the file paths.
+Clone this repository in the appropriate directory. On mac or linux, you can clone this into ~/.config. So, from ~, cd into .config, and then run the following command `mv nvim-config nvim`. This command will rename the directory to just nvim. 
+
+If you are on a Windows, I highly recommend enabling wsl with ubuntu for using neovim. I was unable to get neovim to play nice with windows otherwise. However, if you'd like to give it a shot, clone this repository into your root directory. On Windows, it looks for init.vim in ~/AppData/Local/nvim/init.vim. If you do this, you will need to change the file paths in the init.vim by removing the .config from the file paths.
 
 ## Usage
 When you clone the repo, start nvim and type `:P` and then use tab to get to `:PlugInstall` and select enter.
